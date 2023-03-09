@@ -3,6 +3,9 @@
 <nav>
   <a [routerLink]="['users']">Users</a>
   <a [routerLink]="['roles']">Roles</a>
+  <a [routerLink]="['user-detail',1]">User Detail Param bazlı</a>
+  <a [routerLink]="['user-detail']" [queryParams]="{name: 'ali',surname:'can'}">User Detail Query String Params
+    bazlı</a>
 </nav>
 
 <!-- admin sayfalarının layout görevini üstlenecek -->

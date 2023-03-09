@@ -9,9 +9,10 @@ import { SiteModule } from '../site/site.module';
 import { AdminSharedFeatureModule } from './pages/dashboard-page/features/admin-shared-feature/admin-shared-feature.module';
 import { SiteSharedFeatureModule } from '../site/pages/features/site-shared-feature/site-shared-feature.module';
 import { UserGridComponent } from './pages/features/components/user-grid/user-grid.component';
+import { UserDetailPageComponent } from './pages/user-detail-page/user-detail-page.component';
 
 @NgModule({
-  declarations: [AdminComponent, DashboardPageComponent],
+  declarations: [AdminComponent, DashboardPageComponent, UserDetailPageComponent],
   imports: [
     CommonModule,
     AdminRoutingModule,
