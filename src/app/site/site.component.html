@@ -1,0 +1,15 @@
+<h1>Site Layout</h1>
+
+<nav>
+  <a routerLink="/about">About Page</a>
+  &nbsp;
+  <a routerLink="/home">Home Page</a>
+  &nbsp;
+  <a routerLink="/admin/dashboard">Dashboard</a>
+  &nbsp;
+  <a [routerLink]="['/admin/dashboard']">Dashboard 2</a>
+  &nbsp;
+  <a href="www.google.com" target="_blank">Google</a>
+</nav>
+
+<router-outlet></router-outlet>
